@@ -1,0 +1,4 @@
+#break {
+    word-break: break-all;
+    max-width: 15px;
+}
