@@ -1,0 +1,43 @@
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    border: 2px solid black;
+    color: #213970;
+    background-color: #ffe042;
+}
+
+div {
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid black;
+    position: sticky;
+    top: 0px;
+    bottom: 10px;
+    background-color: #5F4B8B;
+    color: white;
+}
+
+li {
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+li::before {
+    content: "\2706 ";
+    padding-right: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    border: 2px solid black;
+}
